@@ -66,7 +66,11 @@ This project aims to provide a comprehensive guide of analyzing phishing emails 
 
    ### Lessons Learned
 
-   - investigated emails by breaking it down by examining the from, subject, date, to, return path, envelope to, delivery date, received, content type, domain keys, and the message body.
+   - Investigated emails by breaking it down by examining the from, subject, date, to, return path, envelope to, delivery date, received, content type, domain keys, and the message body.
+   - Many gramatical errors in Phishing emails as well as a lot of redirections to sites or multiple sites when clicking a phishing link.
+   - Credentials are collected by bad actors when someone clicks on a link and enters their login info.
+   - Emails from "Netflix" or other well known companies can be spoofed very easily if the email isn't looked over. Such as the sender, spelling, ect.
+   - Many spoofed Phishing emails ask for information you already have given such as credit card information or your social security number that look to be from well known organizations.
  
 
 
