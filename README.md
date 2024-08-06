@@ -66,11 +66,12 @@ This project aims to provide a comprehensive guide of analyzing phishing emails 
 
    ### Lessons Learned
 
-   - Investigated emails by breaking it down by examining the from, subject, date, to, return path, envelope to, delivery date, received, content type, domain keys, and the message body.
-   - Many gramatical errors in Phishing emails as well as a lot of redirections to sites or multiple sites when clicking a phishing link.
-   - Credentials are collected by bad actors when someone clicks on a link and enters their login info.
+   - I investigated the emails by analyzing various components, including the sender, subject, date, recipient, return path, envelope recipient, delivery date, received headers, content type, domain keys, and the message body.
+   - Phishing emails often contain numerous grammatical errors and frequently lead to multiple redirections to various sites when clicking on a phishing link.
+   - Credentials are harvested by malicious actors when someone clicks on a link and enters their login information.
    - Emails from "Netflix" or other well known companies can be spoofed very easily if the email isn't looked over. Such as the sender, spelling, ect.
-   - Many spoofed Phishing emails ask for information you already have given such as credit card information or your social security number that look to be from well known organizations.
+   - Many spoofed phishing emails appear to be from well-known organizations and request information you have already provided, such as credit card details or your social security number.
+   - A red flag is an email that pressures you to urgently provide login credentials or personal information, often with a threat of negative consequences.
  
 
 
