@@ -2,7 +2,7 @@
 
 ## Objective
 
-This project aims to provide a comprehensive guide of analyzing phishing emails through a series of practical exercises and detailed explanations when going through the gohackme Phishing module. After the simulated excercises I will apply these skills with real Phishing emails at the end of the project. 
+(THIS LAB IS CURRENTLY IN PROGRESS) This project aims to provide a comprehensive guide of analyzing phishing emails through a series of practical exercises and detailed explanations when going through the gohackme Phishing module. After the simulated excercises I will apply these skills with real Phishing emails at the end of the project. 
 
 ### Skills Learned
 
@@ -79,7 +79,7 @@ This project aims to provide a comprehensive guide of analyzing phishing emails 
 
 
 
-drag & drop screenshots here or use imgur and reference them using imgsrc
+
 
 Every screenshot should have some text explaining what the screenshot is about.
 
