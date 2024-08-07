@@ -7,7 +7,8 @@
 ### Skills Learned
 
 - Phishing Analysis and Email Forensics
-- Decoding Email Headers and Bodies for Phishing Detection
+- Decoded Email Headers and Bodies for Phishing Detection
+- Leveraged a variety of investigative tools to collect data on phishing emails
 - Email Structure and Phishing Techniques
 - Process of how an email travels from sender to recipient
 
@@ -18,6 +19,7 @@
 - Tryhackme
 - Based Guru
 - Cyber Chef
+- Azure Message Header Analyzer
   
 
 ## Steps
@@ -52,6 +54,32 @@
    <img width="323" alt="image" src="https://github.com/user-attachments/assets/ee3ae680-0792-4fc1-8107-6b34c4eed121">
 
    ## Remediation of Phishing Emails
+
+   Objective 1: To identify the brand this email was tailored to impersonate - After copying and pasting the body of the email into Azure Message Analyzer I identified that "Netflix" was the brand. I will show the txt file and then the Analyzer with the info below.
+
+   <img width="464" alt="image" src="https://github.com/user-attachments/assets/40b6e20c-2654-4b50-b96c-a5b690f6bb5a">
+
+   I input the results into the analyzer and the results are shown below.
+
+   <img width="596" alt="image" src="https://github.com/user-attachments/assets/08f9de3a-0331-4423-9c16-a5453092845b">
+
+   Objective 2: Identify the from in the email address - I utilized the Azure Message Header Analyzer tool and identifed where the phish came from and is underlined in the screenshot below.
+
+  <img width="709" alt="image" src="https://github.com/user-attachments/assets/49a25c01-c60b-49eb-8cb6-72539136041b">
+
+  Objective 3: Identify the original IP address and defang it - Utilized Cyber Chef and pasted in the body of the email and defanged the email. The results are highlighted in the screenshot below.
+
+  <img width="739" alt="image" src="https://github.com/user-attachments/assets/7ead413e-eca3-4e57-8f35-d7187252fa31">
+
+  
+
+
+
+  
+
+
+
+   
 
 
    
