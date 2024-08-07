@@ -20,6 +20,7 @@
 - Based Guru
 - Cyber Chef
 - Azure Message Header Analyzer
+- MX Toolbox
   
 
 ## Steps
@@ -55,11 +56,28 @@
 
    ## Remediation of Phishing Emails
 
-   Objective 1: Identify the brand this email was tailored to impersonate - After copying and pasting the body of the email into Azure Message Analyzer I identified that "Netflix" was the brand. I will show the txt file and then the Analyzer with the info below.
+   Objective 1: Identify the brand this email was tailored to impersonate - I navigated to the terminal and opened the EML file and identified that the email was posing as Netflix. Furthermore, I copied and pasted the body of the email into Azure Message Analyzer and identified that Netflix was the brand as well. I will show the eml file, the Analyzer results, Terminal commands, and the email itself below.
+
+<img width="465" alt="image" src="https://github.com/user-attachments/assets/a13699f7-531c-4dd5-887f-7c4c409ccce0">
+
+
+
+<img width="464" alt="image" src="https://github.com/user-attachments/assets/b0b7aec1-d4e4-4d61-9bc4-fc62ba17c50b">
+
+
+I copied the eml file text below.
+
+
+
+
+
+
 
    <img width="464" alt="image" src="https://github.com/user-attachments/assets/40b6e20c-2654-4b50-b96c-a5b690f6bb5a">
 
-   I input the results into the analyzer and the results are shown below.
+   
+
+   I pasted the info into the Azure Message Header Analyzer and the results are shown below. 
 
    <img width="596" alt="image" src="https://github.com/user-attachments/assets/08f9de3a-0331-4423-9c16-a5453092845b">
 
@@ -76,7 +94,6 @@
   <img width="734" alt="image" src="https://github.com/user-attachments/assets/6ede89e2-7473-496f-827f-195ca779fd15">
 
   Objective 5: Identify the shortened URL and defang it - 
-
 
   
 
