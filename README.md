@@ -2,7 +2,7 @@
 
 ## Objective
 
-(THIS LAB IS CURRENTLY IN PROGRESS) This project aims to provide a comprehensive guide of analyzing phishing emails through a series of practical exercises and detailed explanations when going through the gohackme Phishing module. After the simulated excercises I will apply these skills with real Phishing emails at the end of the project. 
+(THIS LAB IS CURRENTLY IN PROGRESS) This project aims to provide a comprehensive guide of analyzing phishing emails through a series of practical exercises and detailed explanations when going through the gohackme Phishing module. I will apply these skills by utilizing industry-standard tools to analyze phishing emails, completing the objectives outlined in the module.
 
 ### Skills Learned
 
@@ -55,7 +55,7 @@
 
    ## Remediation of Phishing Emails
 
-   Objective 1: To identify the brand this email was tailored to impersonate - After copying and pasting the body of the email into Azure Message Analyzer I identified that "Netflix" was the brand. I will show the txt file and then the Analyzer with the info below.
+   Objective 1: Identify the brand this email was tailored to impersonate - After copying and pasting the body of the email into Azure Message Analyzer I identified that "Netflix" was the brand. I will show the txt file and then the Analyzer with the info below.
 
    <img width="464" alt="image" src="https://github.com/user-attachments/assets/40b6e20c-2654-4b50-b96c-a5b690f6bb5a">
 
@@ -70,6 +70,15 @@
   Objective 3: Identify the original IP address and defang it - Utilized Cyber Chef and pasted in the body of the email and defanged the email. The results are highlighted in the screenshot below.
 
   <img width="739" alt="image" src="https://github.com/user-attachments/assets/7ead413e-eca3-4e57-8f35-d7187252fa31">
+
+  Objective 4: From the information gathered, identify the domain of interest and defang it - I utilized Cyber Chef to analyze the email body and successfully retrieved the domain of interest, which is underlined in the screenshot.
+
+  <img width="734" alt="image" src="https://github.com/user-attachments/assets/6ede89e2-7473-496f-827f-195ca779fd15">
+
+  Objective 5: Identify the shortened URL and defang it - 
+
+
+  
 
   
 
