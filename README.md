@@ -2,7 +2,7 @@
 
 ## Objective
 
-(THIS LAB IS CURRENTLY IN PROGRESS) This project aims to provide a comprehensive guide of analyzing phishing emails through a series of practical exercises and detailed explanations when going through the gohackme Phishing module. I will apply these skills by utilizing industry-standard tools to analyze phishing emails, completing the objectives outlined in the module.
+This project aims to provide a comprehensive guide of analyzing phishing emails through a series of practical exercises and detailed explanations when going through the gohackme Phishing module. I will apply these skills by utilizing industry-standard tools to analyze phishing emails, completing the objectives outlined in the module.
 
 ### Skills Learned
 
@@ -20,7 +20,6 @@
 - Based Guru
 - Cyber Chef
 - Azure Message Header Analyzer
-- MX Toolbox
 - AnyRun
   
 
@@ -55,7 +54,7 @@
 
    <img width="323" alt="image" src="https://github.com/user-attachments/assets/ee3ae680-0792-4fc1-8107-6b34c4eed121">
 
-   ## Phishing scenario 1
+   ## Phishing Scenario 1
 
    Objective 1: Identify the brand this email was tailored to impersonate - I navigated to the terminal and opened the EML file and identified that the email was posing as Netflix. Furthermore, I copied and pasted the body of the email into Azure Message Analyzer and identified that Netflix was the brand as well. I will show the eml file, the Analyzer results, Terminal commands, and the email itself below.
 
@@ -104,7 +103,7 @@ I copied the eml file text below.
 
 
   
-## Phishing scenario 2
+## Phishing Scenario 2
 
 Objective 1- Identifed what Anyrun classifies this email as (link was given on the page) - It is Identified as suspicious activity.
 
@@ -131,6 +130,11 @@ Within the text report I was able to Identify both malicious IP addresses.
 Then I navigated to Cyber Chef to defang both IP addresses.
 
 <img width="698" alt="image" src="https://github.com/user-attachments/assets/41959abd-a503-48c9-892f-e731c7cbf755">
+
+Objective 5- Identify Windows process was flagged as "Potentially bad traffic." - Was able to navigate to the threats section and identified that the exe circled in the screenshot was classified as potentially bad traffic.
+
+
+<img width="884" alt="image" src="https://github.com/user-attachments/assets/472e6a39-5766-466d-8bb7-2f72b9be888a">
 
 
 
@@ -165,11 +169,12 @@ Then I navigated to Cyber Chef to defang both IP addresses.
    ### Lessons Learned
 
    - I investigated the emails by analyzing various components, including the sender, subject, date, recipient, return path, envelope recipient, delivery date, received headers, content type, domain keys, and the message body.
-   - Phishing emails often contain numerous grammatical errors and frequently lead to multiple redirections to various sites when clicking on a phishing link.
+   - Utilized a multitude of tools to retrieve important data to analyze the malicious emails.
+   - Utilized AnyRun to retrieve the SHA 256 hash of the malicious PDF.
    - Credentials are harvested by malicious actors when someone clicks on a link and enters their login information.
    - Emails from "Netflix" or other well known companies can be spoofed very easily if the email isn't looked over. Such as the sender, spelling, ect.
    - Many spoofed phishing emails appear to be from well-known organizations and request information you have already provided, such as credit card details or your social security number.
-   - A red flag is an email that pressures you to urgently provide login credentials or personal information, often with a threat of negative consequences.
+   - Phishing emails often contain numerous grammatical errors and frequently lead to multiple redirections to various sites when clicking on a phishing link.
  
 
 
