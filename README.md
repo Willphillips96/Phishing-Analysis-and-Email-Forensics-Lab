@@ -21,6 +21,7 @@
 - Cyber Chef
 - Azure Message Header Analyzer
 - MX Toolbox
+- AnyRun
   
 
 ## Steps
@@ -54,7 +55,7 @@
 
    <img width="323" alt="image" src="https://github.com/user-attachments/assets/ee3ae680-0792-4fc1-8107-6b34c4eed121">
 
-   ## Remediation of Phishing Emails
+   ## Phishing scenario 1
 
    Objective 1: Identify the brand this email was tailored to impersonate - I navigated to the terminal and opened the EML file and identified that the email was posing as Netflix. Furthermore, I copied and pasted the body of the email into Azure Message Analyzer and identified that Netflix was the brand as well. I will show the eml file, the Analyzer results, Terminal commands, and the email itself below.
 
@@ -93,7 +94,29 @@ I copied the eml file text below.
 
   <img width="734" alt="image" src="https://github.com/user-attachments/assets/6ede89e2-7473-496f-827f-195ca779fd15">
 
-  Objective 5: Identify the shortened URL and defang it - 
+  Objective 5: Identify the shortened URL and defang it - Went back into the original email via the terminal. Right clicked and copied the link location.
+
+  <img width="466" alt="image" src="https://github.com/user-attachments/assets/4f596c39-e066-4c08-8f3b-8b8c9e9f0150">
+
+  Then I opened Cyber Chef and pasted the the URL. See below as it has been defanged.
+
+  <img width="917" alt="image" src="https://github.com/user-attachments/assets/a62b249a-df7a-4855-a711-c2ff10fffd12">
+
+
+  
+## Phishing scenario 2
+
+Objective 1- Identifed what Anyrun classifies this email as (link was given on the page). It is Identified as suspicious activity.
+
+<img width="918" alt="image" src="https://github.com/user-attachments/assets/c627202e-df58-4d1b-8077-347035a73791">
+
+Objective 2- Identify the name of the PDF- Identified it as Payment-updateid.PDF
+
+<img width="916" alt="image" src="https://github.com/user-attachments/assets/adb44f67-f22e-4ba9-ba96-ee12d356e90a">
+
+
+
+
 
   
 
