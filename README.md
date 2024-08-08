@@ -18,10 +18,10 @@
 
 
 - Tryhackme
-- Based Guru
+- AnyRun
 - Cyber Chef
 - Azure Message Header Analyzer
-- AnyRun
+- Based Guru
   
 
 ## Analyzing Phishing Emails
