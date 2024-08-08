@@ -2,7 +2,8 @@
 
 ## Objective
 
-This project aims to provide a comprehensive guide of analyzing phishing emails through a series of practical exercises and detailed explanations when going through the Tryhackme Phishing module. I will apply these skills by utilizing industry-standard tools to analyze phishing emails, completing the objectives outlined in the module.
+(THIS PROJECT IS STILL IN PROGRESS) This project aims to provide a comprehensive guide of analyzing phishing emails through a series of practical exercises and detailed explanations when going through the Tryhackme Phishing module. I will apply these skills by utilizing industry-standard tools to identify, analyze, defend against phishing emails by completing the objectives outlined in the module and doing further research. I will also be including incident response steps. 
+
 
 ### Skills Learned
 
@@ -136,6 +137,13 @@ Objective 5- Identify Windows process was flagged as "Potentially bad traffic." 
 
 
 <img width="884" alt="image" src="https://github.com/user-attachments/assets/472e6a39-5766-466d-8bb7-2f72b9be888a">
+
+
+## Step By Step After Identifying A Phishing Email
+
+
+## Techniques and Tools To Use After Identifying a Phishing email
+
 
 
 
