@@ -9,6 +9,7 @@
 
 - Phishing Analysis and Email Forensics
 - Decoded Email Headers and Bodies for Phishing Detection
+- Gained expertise in defending against phishing attacks
 - Leveraged a variety of investigative tools to collect data on phishing emails
 - Email Structure and Phishing Techniques
 - Process of how an email travels from sender to recipient
@@ -177,6 +178,9 @@ p= This is the public key that will be matched with the private key
 
 <img width="890" alt="image" src="https://github.com/user-attachments/assets/d8ce3017-ca61-4eb1-8618-aa8e0b10d101">
 
+
+
+
 DMARC (Domain-based Message Authentication, Reporting, and Conformance):
 Is an email authentication protocol that builds on existing mechanisms like SPF (Sender Policy Framework) and DKIM (DomainKeys Identified Mail) to provide a way for domain owners to protect their domain from unauthorized use, commonly known as email spoofing. DMARC enables domain owners to specify how email receivers should handle messages that fail authentication checks, and it also provides a way to receive reports on the outcome of these checks.
 
@@ -188,11 +192,18 @@ p=quarantine If a check fails, then an email will be sent to the spam folder
 
 rua=mailto:postmaster@webite[.]com Aggregate reports will be sent to this email address
 
+
+
 <img width="359" alt="image" src="https://github.com/user-attachments/assets/933225d4-c519-46cb-a3e0-a818ddff969b">
 
 
   
   *You can utilize the Domain health checkher by navigating to this link and then entering the domain https://dmarcian.com/domain-checker/
+
+ 
+  
+  <img width="913" alt="image" src="https://github.com/user-attachments/assets/f9c65320-97b3-4c4c-8aec-f4a18ffdf7ef">
+
 
   
 
