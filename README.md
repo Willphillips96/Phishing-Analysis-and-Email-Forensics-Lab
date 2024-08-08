@@ -103,7 +103,7 @@ I copied the eml file text below.
 
   <img width="734" alt="image" src="https://github.com/user-attachments/assets/6ede89e2-7473-496f-827f-195ca779fd15">
 
-  Objective 5: Identify the shortened URL and defang it - Went back into the original email via the terminal. Right clicked and copied the link location.
+  Tryhackme Objective 5: Identify the shortened URL and defang it - Went back into the original email via the terminal. Right clicked and copied the link location.
 
   <img width="466" alt="image" src="https://github.com/user-attachments/assets/4f596c39-e066-4c08-8f3b-8b8c9e9f0150">
 
@@ -119,7 +119,7 @@ Tryhackme Objective 1- Identifed what Anyrun classifies this email as (link was 
 
 <img width="918" alt="image" src="https://github.com/user-attachments/assets/c627202e-df58-4d1b-8077-347035a73791">
 
-Objective 2- Identify the name of the PDF- Identified it as Payment-updateid.PDF
+Tryhackme Objective 2- Identify the name of the PDF- Identified it as Payment-updateid.PDF
 
 <img width="916" alt="image" src="https://github.com/user-attachments/assets/adb44f67-f22e-4ba9-ba96-ee12d356e90a">
 
@@ -147,10 +147,61 @@ Tryhackme Objective 5- Identify Windows process was flagged as "Potentially bad 
 <img width="884" alt="image" src="https://github.com/user-attachments/assets/472e6a39-5766-466d-8bb7-2f72b9be888a">
 
 
-## Step By Step After Identifying A Phishing Email
+## Defending Against Phising Emails
+
+SPF (Sender Policy Framework): 
+Used to authenticate the sender - Published list of servers that are authorized to send mail on behalf of a domain.
+
+IP4: Specifies the IP addresses allowed to send emails on behalf of your domain.
+Domain: Specifies which domain is authorized to receive emails.
+Modifiers:
+
+-all: Rejects all unauthorized emails.
+
+~all: (Softfail): Accepts unauthorized emails but marks them as suspicious.
+
++all: Allows any server to send emails from your domain (not recommended).
+
+Source: https://dmarcian.com/create-spf-record/
+
+DKIM (DomainKeys Identified Mail): 
+Is an email authentication method that allows the receiver to verify that an email was sent by the domain it claims to be from and that it hasn't been altered during transit. DKIM works by using cryptographic signatures, which are added to the email headers. One of the large benefits is this can survive email forwarding.
+
+Within the excercise in the tryhackme module it breaks a DKIM record as shown below.
+
+v=DKIM1 Version of the DKIM record.
+
+k=rsa This is the key type. RSA is an encription algoritym
+
+p= This is the public key that will be matched with the private key
+
+<img width="890" alt="image" src="https://github.com/user-attachments/assets/d8ce3017-ca61-4eb1-8618-aa8e0b10d101">
+
+DMARC (Domain-based Message Authentication, Reporting, and Conformance):
+Is an email authentication protocol that builds on existing mechanisms like SPF (Sender Policy Framework) and DKIM (DomainKeys Identified Mail) to provide a way for domain owners to protect their domain from unauthorized use, commonly known as email spoofing. DMARC enables domain owners to specify how email receivers should handle messages that fail authentication checks, and it also provides a way to receive reports on the outcome of these checks.
+
+Within the excercise in the Tryhackme module it breaks down a DMARC record as shown below.
+
+v=DMARC1 Must be in all caps
+
+p=quarantine If a check fails, then an email will be sent to the spam folder
+
+rua=mailto:postmaster@webite[.]com Aggregate reports will be sent to this email address
+
+<img width="359" alt="image" src="https://github.com/user-attachments/assets/933225d4-c519-46cb-a3e0-a818ddff969b">
 
 
-## Techniques and Tools To Use After Identifying a Phishing email
+  
+  *You can utilize the Domain health checkher by navigating to this link and then entering the domain https://dmarcian.com/domain-checker/
+
+  
+
+
+
+
+
+
+
 
 
 
