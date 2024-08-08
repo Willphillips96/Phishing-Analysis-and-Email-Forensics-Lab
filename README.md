@@ -2,7 +2,7 @@
 
 ## Objective
 
-(THIS PROJECT IS STILL IN PROGRESS) This project aims to provide a comprehensive guide of analyzing phishing emails through a series of practical exercises and detailed explanations when going through the Tryhackme Phishing module. I will apply these skills by utilizing industry-standard tools to identify, analyze, defend against phishing emails by completing the objectives outlined in the module and doing further research. I will also be including incident response steps. 
+This project aims to provide a comprehensive guide of analyzing phishing emails through a series of practical exercises and detailed explanations when going through the Tryhackme Phishing module. I will apply these skills by utilizing industry-standard tools to identify, analyze, defend against phishing emails by completing the objectives outlined in the module and doing further research. I will also be including incident response steps. 
 
 
 ### Skills Learned
@@ -203,6 +203,24 @@ rua=mailto:postmaster@webite[.]com Aggregate reports will be sent to this email 
  
   
   <img width="913" alt="image" src="https://github.com/user-attachments/assets/f9c65320-97b3-4c4c-8aec-f4a18ffdf7ef">
+
+
+
+
+
+
+
+
+S/MIME (Secure/Multipurpose Internet Mail Extensions):
+Is a widely-used standard for securing email communication by providing encryption and digital signatures. It ensures the confidentiality, integrity, and authenticity of email messages.
+
+Encription: Encrypts the content of an email, ensuring that only the intended recipient, who possesses the correct private key, can decrypt and read the message.
+
+Digital Signatures: Verifies the identity of the sender of an email
+
+Source: https://learn.microsoft.com/en-us/exchange/security-and-compliance/smime-exo/smime-exo
+
+
 
 
   
