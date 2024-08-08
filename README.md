@@ -31,6 +31,7 @@
 2. On a VM within the Tryhackme lab the objective was to deconstruct the based64 email 2 txt file to reveal the text in the PDF that you see below.
 
  <img width="465" alt="based 64 notepad" src="https://github.com/user-attachments/assets/f8b9adcb-0de4-4057-a573-e32130874cd9">
+
   
 3. I then used the Base64 Guru tool to decode the text by copying and pasting it into the tool, which revealed the original content in the preview section.
 
@@ -44,15 +45,22 @@
 5. After running the final line of code, the email populated as shown below.
 
    
-   <img width="439" alt="image" src="https://github.com/user-attachments/assets/9277a4c3-388e-432b-a456-3b527e39cb9c">
+   <img width="655" alt="image" src="https://github.com/user-attachments/assets/fa1e9acc-4796-46d6-bac7-2e45e9fd9c02">
 
-7. After running the code, it revealed the email masquerading as Home Depot, along with the sender's email address and the subject line. The final task was to defang the URL to make it unclickable.
 
-8. I went into the email 3 txt file and copied the information.
+6. After running the code, it revealed the email masquerading as Home Depot, along with the sender's email address and the subject line. The final task was to defang the URL to make it unclickable.
+
+ *Note that the from section it states it came from support@teckbe[.]com
+   
+   *You will also notice random text at the bottom stating "Or you may write to Space Tree technology" and provides a PO box- This is a red flag as it has nothing to do with Home Depot.
+   
+   *My last observation is the small amount of code towards the bottom left of the email. A reputable company would most not likely send out an email with exposed code.
+
+7. I went into the email 3 txt file and copied the information.
 
    <img width="496" alt="image" src="https://github.com/user-attachments/assets/efd3382d-4619-47de-af3e-2020f946ad22">
 
-9. Next, I configured the Cyber Chef application to defang the URL. I then pasted the copied information from the third email text file, which resulted in a defanged URL.
+8. Next, I configured the Cyber Chef application to defang the URL. I then pasted the copied information from the third email text file, which resulted in a defanged URL.
 
    <img width="323" alt="image" src="https://github.com/user-attachments/assets/ee3ae680-0792-4fc1-8107-6b34c4eed121">
 
