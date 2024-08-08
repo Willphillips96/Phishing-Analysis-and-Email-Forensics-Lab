@@ -24,9 +24,9 @@
 - AnyRun
   
 
-## Steps
+## Analyzing Phishing Emails
 
-1. Investigated emails by breaking it down by examining the from, subject, date, to, return path, envelope to, delivery date, received, content type, domain keys, and the message body.
+1. Investigated emails by breaking it down by examining the from, subject, date, to, return path, envelope to, delivery date, received, content type, and the message body.
 
 2. On a VM within the Tryhackme lab the objective was to deconstruct the based64 email 2 txt file to reveal the text in the PDF that you see below.
 
