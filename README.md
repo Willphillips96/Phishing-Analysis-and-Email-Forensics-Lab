@@ -22,7 +22,7 @@ This project aims to provide a comprehensive guide of analyzing phishing emails 
 - AnyRun
 - Cyber Chef
 - Azure Message Header Analyzer
-- Based Guru
+- Based64 Guru
 - DMARC Domain Checker
   
 
