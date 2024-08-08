@@ -2,7 +2,7 @@
 
 ## Objective
 
-This project aims to provide a comprehensive guide of analyzing phishing emails through a series of practical exercises and detailed explanations when going through the Tryhackme Phishing module. I will apply these skills by utilizing industry-standard tools to identify, analyze, defend against phishing emails by completing the objectives outlined in the module and doing further research. I will also be including incident response steps. 
+This project aims to provide a comprehensive guide of analyzing phishing emails through a series of practical exercises and detailed explanations when going through the Tryhackme Phishing module. I will apply these skills by utilizing industry-standard tools and protocols to identify, analyze, defend against phishing emails by completing the objectives outlined in the module and doing further research.
 
 
 ### Skills Learned
