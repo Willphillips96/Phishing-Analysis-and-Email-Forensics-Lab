@@ -23,6 +23,7 @@ This project aims to provide a comprehensive guide of analyzing phishing emails 
 - Cyber Chef
 - Azure Message Header Analyzer
 - Based Guru
+- DMARC Domain Checker
   
 
 ## Analyzing Phishing Emails
