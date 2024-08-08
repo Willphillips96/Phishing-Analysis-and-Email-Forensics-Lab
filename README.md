@@ -222,6 +222,11 @@ Digital Signatures: Verifies the identity of the sender of an email
 Source: https://learn.microsoft.com/en-us/exchange/security-and-compliance/smime-exo/smime-exo
 
 
+Educating Users Within Your organization:
+
+The Cybersecurity team plays a crucial role in safeguarding an organization's digital assets by proactively identifying and mitigating potential threats. One essential strategy to employ is launching test phishing campaigns using tools like KnowBe4. These simulations are vital for educating users about phishing techniques, helping them recognize and avoid malicious emails. By fostering awareness and training employees to be the first line of defense, the Cybersecurity team significantly reduces the risk of successful phishing attacks, thereby strengthening the organization's overall security posture.
+
+
 
 
   
@@ -268,7 +273,7 @@ Source: https://learn.microsoft.com/en-us/exchange/security-and-compliance/smime
 
    - I investigated the emails by analyzing various components, including the sender, subject, date, recipient, return path, envelope recipient, delivery date, received headers, content type, domain keys, and the message body.
    - Utilized a multitude of tools to retrieve important data to analyze the malicious emails.
-   - Utilized AnyRun to retrieve the SHA 256 hash of the malicious PDF.
+   - Analyzed defensive protocols to defend against phishing
    - Credentials are harvested by malicious actors when someone clicks on a link and enters their login information.
    - Emails from "Netflix" or other well known companies can be spoofed very easily if the email isn't looked over. Such as the sender, spelling, ect.
    - Many spoofed phishing emails appear to be from well-known organizations and request information you have already provided, such as credit card details or your social security number.
