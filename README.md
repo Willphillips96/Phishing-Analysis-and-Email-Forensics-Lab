@@ -58,7 +58,7 @@
 
    ## Phishing Scenario 1
 
-   Objective 1: Identify the brand this email was tailored to impersonate - I navigated to the terminal and opened the EML file and identified that the email was posing as Netflix. Furthermore, I copied and pasted the body of the email into Azure Message Analyzer and identified that Netflix was the brand as well. I will show the eml file, the Analyzer results, Terminal commands, and the email itself below.
+  Tryhackme Objective 1: Identify the brand this email was tailored to impersonate - I navigated to the terminal and opened the EML file and identified that the email was posing as Netflix. Furthermore, I copied and pasted the body of the email into Azure Message Analyzer and identified that Netflix was the brand as well. I will show the eml file, the Analyzer results, Terminal commands, and the email itself below.
 
 <img width="465" alt="image" src="https://github.com/user-attachments/assets/a13699f7-531c-4dd5-887f-7c4c409ccce0">
 
@@ -83,15 +83,15 @@ I copied the eml file text below.
 
    <img width="596" alt="image" src="https://github.com/user-attachments/assets/08f9de3a-0331-4423-9c16-a5453092845b">
 
-   Objective 2: Identify the from in the email address - I utilized the Azure Message Header Analyzer tool and identifed where the phish came from and is underlined in the screenshot below.
+  Tryhackme Objective 2: Identify the from in the email address - I utilized the Azure Message Header Analyzer tool and identifed where the phish came from and is underlined in the screenshot below.
 
   <img width="709" alt="image" src="https://github.com/user-attachments/assets/49a25c01-c60b-49eb-8cb6-72539136041b">
 
-  Objective 3: Identify the original IP address and defang it - Utilized Cyber Chef and pasted in the body of the email and defanged the email. The results are highlighted in the screenshot below.
+ Tryhackme Objective 3: Identify the original IP address and defang it - Utilized Cyber Chef and pasted in the body of the email and defanged the email. The results are highlighted in the screenshot below.
 
   <img width="739" alt="image" src="https://github.com/user-attachments/assets/7ead413e-eca3-4e57-8f35-d7187252fa31">
 
-  Objective 4: From the information gathered, identify the domain of interest and defang it - I utilized Cyber Chef to analyze the email body and successfully retrieved the domain of interest, which is underlined in the screenshot.
+  Tryhackme Objective 4: From the information gathered, identify the domain of interest and defang it - I utilized Cyber Chef to analyze the email body and successfully retrieved the domain of interest, which is underlined in the screenshot.
 
   <img width="734" alt="image" src="https://github.com/user-attachments/assets/6ede89e2-7473-496f-827f-195ca779fd15">
 
@@ -107,7 +107,7 @@ I copied the eml file text below.
   
 ## Phishing Scenario 2
 
-Objective 1- Identifed what Anyrun classifies this email as (link was given on the page) - It is Identified as suspicious activity.
+Tryhackme Objective 1- Identifed what Anyrun classifies this email as (link was given on the page) - It is Identified as suspicious activity.
 
 <img width="918" alt="image" src="https://github.com/user-attachments/assets/c627202e-df58-4d1b-8077-347035a73791">
 
@@ -115,11 +115,11 @@ Objective 2- Identify the name of the PDF- Identified it as Payment-updateid.PDF
 
 <img width="916" alt="image" src="https://github.com/user-attachments/assets/adb44f67-f22e-4ba9-ba96-ee12d356e90a">
 
-Objective 3- Identify what the SHA 256 hash is for the PDF - The SHA 256 hash is in the screenshot underlined below.
+Tryhackme Objective 3- Identify what the SHA 256 hash is for the PDF - The SHA 256 hash is in the screenshot underlined below.
 
 <img width="698" alt="image" src="https://github.com/user-attachments/assets/0a5d1ca3-40b6-45ac-b9d5-aa7f7caea015">
 
-Objective 4- Identify 2 IP address that are classified as malicious and defang them - Clicked on the Text report option.
+Tryhackme Objective 4- Identify 2 IP address that are classified as malicious and defang them - Clicked on the Text report option.
 
 <img width="921" alt="image" src="https://github.com/user-attachments/assets/5e49887d-bac7-4100-ac34-61b5047f89b1">
 
@@ -133,7 +133,7 @@ Then I navigated to Cyber Chef to defang both IP addresses.
 
 <img width="698" alt="image" src="https://github.com/user-attachments/assets/41959abd-a503-48c9-892f-e731c7cbf755">
 
-Objective 5- Identify Windows process was flagged as "Potentially bad traffic." - Was able to navigate to the threats section and identified that the exe circled in the screenshot was classified as potentially bad traffic.
+Tryhackme Objective 5- Identify Windows process was flagged as "Potentially bad traffic." - Was able to navigate to the threats section and identified that the exe circled in the screenshot was classified as potentially bad traffic.
 
 
 <img width="884" alt="image" src="https://github.com/user-attachments/assets/472e6a39-5766-466d-8bb7-2f72b9be888a">
